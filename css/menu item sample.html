@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.item-details h3 {
+    margin: 0;
+    color: #555;
+}
+
+.item-details p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.item-details span {
+    font-weight: bold;
+    color: #000;
+}
+
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1>Our Menu</h1>
+
+        <div class="category">
+            <h2>Appetizers</h2>
+            <div class="menu-item">
+                <img src="bruschetta.jpg" alt="Bruschetta">
+                <div class="item-details">
+                    <h3>Bruschetta</h3>
+                    <p>Toasted bread topped with fresh tomatoes, basil, and balsamic glaze.</p>
+                    <span>$8.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="stuffed_mushrooms.jpg" alt="Stuffed Mushrooms">
+                <div class="item-details">
+                    <h3>Stuffed Mushrooms</h3>
+                    <p>Mushrooms filled with garlic and herb cheese.</p>
+                    <span>$10.99</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <img src="grilled_salmon.jpg" alt="Grilled Salmon">
+                <div class="item-details">
+                    <h3>Grilled Salmon</h3>
+                    <p>Served with asparagus and lemon butter sauce.</p>
+                    <span>$22.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="pasta_primavera.jpg" alt="Pasta Primavera">
+                <div class="item-details">
+                    <h3>Pasta Primavera</h3>
+                    <p>Mixed seasonal vegetables in a light garlic sauce.</p>
+                    <span>$16.99</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <img src="cheesecake.jpg" alt="Cheesecake">
+                <div class="item-details">
+                    <h3>Cheesecake</h3>
+                    <p>Classic New York-style cheesecake with a graham cracker crust.</p>
+                    <span>$7.99</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="chocolate_lava_cake.jpg" alt="Chocolate Lava Cake">
+                <div class="item-details">
+                    <h3>Chocolate Lava Cake</h3>
+                    <p>Warm chocolate cake with a molten center, served with vanilla ice cream.</p>
+                    <span>$8.99</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

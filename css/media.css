@@ -1,0 +1,81 @@
+@media screen and (max-width: 768px) {
+    .navbar-container .menu-items{
+        display: none;
+    }
+
+    .navbar-container .navbar-toggler{
+        display: block;
+        
+    }
+
+    .navbar-container .menu-items.active{
+        display: block;
+        position: fixed;
+        background-color: var(--white);
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        height: 100%;
+        width: 30%;
+        animation: slide 0.5s linear;
+    }    
+
+.navbar-container .menu-items.active .cls{
+    float: right;
+    color: var(--danger);
+}
+
+.navbar-container .menu-items.active li{
+  margin-top: 10px;
+}
+/* about */
+.showcase-container .main-title {
+    font-size: 2.5rem;
+    color: var(--primary);
+}
+/* food-category */
+
+.food-container{
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* food menu */
+
+.food-menu-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* testimonials */
+
+.testimonial-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+/* contact */
+.contact-img,
+.form-container{
+    width: 100%; 
+}
+
+.contact-container{
+    display: block;
+}
+
+}
+@keyframes slide {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+    
+}
